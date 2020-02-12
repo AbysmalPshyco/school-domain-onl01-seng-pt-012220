@@ -22,7 +22,5 @@ class School
     if year == x 
       return y
  end
-
-
-end
-
+ end
+ end
