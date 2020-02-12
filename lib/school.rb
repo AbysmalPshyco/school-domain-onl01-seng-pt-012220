@@ -18,8 +18,8 @@ class School
 
  def grade(year)
   roster.detect do |x, y| 
-    if x == year
-      return y
+    if y == year
+      return x
  end
  
  
