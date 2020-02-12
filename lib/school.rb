@@ -21,5 +21,6 @@ class School
     if y == year
       return x
  end
+ end
  
  
