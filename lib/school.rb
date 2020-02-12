@@ -14,7 +14,7 @@ end
   
 def sort 
   organize = {}
-  roster.each {|x,y| organize[x] = 
+  roster.each {|x,y| organize[x] = y.sort}
 end
 school = School.new("Bayside High School")
 school.roster
