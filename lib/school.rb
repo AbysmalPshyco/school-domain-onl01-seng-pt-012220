@@ -17,8 +17,6 @@ def sort
   roster.each {|x, y| organize[x] = y.sort}
 end
 
-def grade(
-end
 
 
 end
