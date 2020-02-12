@@ -15,5 +15,8 @@ class School
  def sort 
   organize = {}
   roster.each {|x, y| organize[x] = y.sort}
+
+ def grade
+   @roster[grade]
  end
  end
