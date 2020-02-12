@@ -8,7 +8,7 @@ class School
   end
   
   def  add_student(name,grade)
-  	roster[grade] ||= []
+  	roster[year] ||= []
   	roster[grade] << name
 end
   
@@ -17,8 +17,7 @@ def sort
   roster.each {|x, y| organize[x] = y.sort}
 end
 
-def grade(grade)
-  roster.detect {|x,y| if grade == x return y}
+def grade(
 end
 
 
