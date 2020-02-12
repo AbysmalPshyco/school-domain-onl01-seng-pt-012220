@@ -18,7 +18,7 @@ def sort
 end
 
 def grade(grade)
-  
+  roster.detect {|x,y| if grade == x return y}
 end
 
 
