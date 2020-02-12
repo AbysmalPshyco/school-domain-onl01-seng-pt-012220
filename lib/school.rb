@@ -22,5 +22,5 @@ class School
       return x
  end
  end
- 
+ end
  
