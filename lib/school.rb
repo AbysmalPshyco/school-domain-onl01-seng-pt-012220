@@ -17,9 +17,7 @@ def grade(year)
 end
 
 def sort
-  roster.each {|key,value|}
-  value.sort
-end
+  roster.each {|key,value|
 
  end
  
