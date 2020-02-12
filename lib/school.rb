@@ -15,7 +15,6 @@ class School
  def sort 
   organize = {}
   roster.each {|x, y| organize[x] = y.sort}
- end
 
  def grade(year)
   roster.detect do |x, y| 
