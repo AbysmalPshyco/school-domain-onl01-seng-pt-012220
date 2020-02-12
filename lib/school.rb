@@ -12,15 +12,11 @@ class School
   	roster[year] << name
  end
   
- 
-
- def grade(level)
-   @roster[level]
- end
  def sort 
   organize = {}
   roster.each {|x, y| organize[x] = y.sort}
 end
-organize
-end
+
  end
+ end
+ 
