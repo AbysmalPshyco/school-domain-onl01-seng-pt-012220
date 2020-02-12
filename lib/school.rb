@@ -15,8 +15,7 @@ end
 def sort 
   organize = {}
   roster.each {|x,y| organize[x] = y.sort}
-end
-organize
+
 end
 end
 
