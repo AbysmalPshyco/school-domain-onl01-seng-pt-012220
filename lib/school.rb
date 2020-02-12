@@ -16,10 +16,8 @@ class School
   organize = {}
   roster.each {|x, y| organize[x] = y.sort}
 
- def grade(year)
-  roster.detect do |x, y| 
-    if y == year
-      return x
+ def grade
+   @roster[grade]
  end
  end
  end
